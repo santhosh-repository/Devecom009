@@ -19,10 +19,6 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'LS_Parquet_fromcsv'"
 		},
-		"LS_RestApi_toParquet_properties_typeProperties_url": {
-			"type": "string",
-			"defaultValue": "https://retoolapi.dev/smdCCy/data"
-		},
 		"DS_Parquet_fromRest_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://adlssidevecom101.dfs.core.windows.net/"
@@ -34,6 +30,10 @@
 		"LS_Parquet_fromcsv_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://adlssidevecom101.dfs.core.windows.net/"
+		},
+		"LS_RestApi_toParquet_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://retoolapi.dev/smdCCy/data"
 		},
 		"Event_trigger_properties_typeProperties_scope": {
 			"type": "string",
@@ -75,9 +75,6 @@
 					"LS_Parquet_fromcsv_accountKey": {
 						"value": "[parameters('LS_Parquet_fromcsv_accountKey')]"
 					},
-					"LS_RestApi_toParquet_properties_typeProperties_url": {
-						"value": "[parameters('LS_RestApi_toParquet_properties_typeProperties_url')]"
-					},
 					"DS_Parquet_fromRest_properties_typeProperties_url": {
 						"value": "[parameters('DS_Parquet_fromRest_properties_typeProperties_url')]"
 					},
@@ -86,6 +83,9 @@
 					},
 					"LS_Parquet_fromcsv_properties_typeProperties_url": {
 						"value": "[parameters('LS_Parquet_fromcsv_properties_typeProperties_url')]"
+					},
+					"LS_RestApi_toParquet_properties_typeProperties_url": {
+						"value": "[parameters('LS_RestApi_toParquet_properties_typeProperties_url')]"
 					},
 					"Event_trigger_properties_typeProperties_scope": {
 						"value": "[parameters('Event_trigger_properties_typeProperties_scope')]"
