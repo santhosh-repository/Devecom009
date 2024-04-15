@@ -1,0 +1,12 @@
+{
+	"name": "LS_Parquet_fromcsv",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://adlssidevecom101.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDNEQjE4Mzc4LTc0NzAtNDY2NS1BRjM1LUUwQjc1Mzg2MDc3Ml9jNzdmYjlkNi0yYzU1LTQ4MzItOTkzMi1mNTBlYmQ0ZjIxN2UiDQp9"
+		}
+	}
+}
