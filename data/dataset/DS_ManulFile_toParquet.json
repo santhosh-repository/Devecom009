@@ -10,8 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "payments.csv",
-				"fileSystem": "manualfile-ingest"
+				"fileName": "orders.csv",
+				"fileSystem": "orders"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
