@@ -8,11 +8,26 @@
 		"DS_Parquet_fromRest_accountKey": {
 			"value": ""
 		},
+		"LS_Manualfile_ToParquet_accountKey": {
+			"value": ""
+		},
+		"LS_Parquet_fromcsv_accountKey": {
+			"value": ""
+		},
 		"LS_RestApi_toParquet_properties_typeProperties_url": {
 			"value": "https://retoolapi.dev/smdCCy/data"
 		},
 		"DS_Parquet_fromRest_properties_typeProperties_url": {
 			"value": "https://adlssidevecom101.dfs.core.windows.net/"
+		},
+		"LS_Manualfile_ToParquet_properties_typeProperties_url": {
+			"value": "https://adlsrawecom101.dfs.core.windows.net/"
+		},
+		"LS_Parquet_fromcsv_properties_typeProperties_url": {
+			"value": "https://adlssidevecom101.dfs.core.windows.net/"
+		},
+		"Event_trigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/09f1eb5a-de65-4127-81c0-3d2c66734c3e/resourceGroups/rg_devecom/providers/Microsoft.Storage/storageAccounts/adlsrawecom101"
 		},
 		"containerUri": {
 			"value": ""
