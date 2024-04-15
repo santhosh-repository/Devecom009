@@ -1,0 +1,24 @@
+{
+	"name": "Sch_rest_toParquet",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_RestAPI_Parquet",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2024-04-15T10:05:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
