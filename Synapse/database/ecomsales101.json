@@ -1,0 +1,25 @@
+{
+	"name": "ecomsales101",
+	"properties": {
+		"Name": "ecomsales101",
+		"EntityType": "DATABASE",
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"IsSyMSCDMDatabase": true
+		},
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://output@adlsstddevecom101.dfs.core.windows.net/final data",
+			"Properties": {
+				"FormatType": "csv",
+				"LinkedServiceName": "devsynapse101-WorkspaceDefaultStorage"
+			}
+		},
+		"PublishStatus": "PUBLISHED",
+		"ObjectVersion": 1,
+		"ObjectId": "48403f39-4ff2-4628-a03f-21ac8f119210"
+	},
+	"type": "DATABASE"
+}
